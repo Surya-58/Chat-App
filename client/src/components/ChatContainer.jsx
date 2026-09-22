@@ -31,7 +31,7 @@ useEffect(()=>{
         <img src={assets.help_icon} alt="" className="max-md:hidden max-w-5" />
       </div>
       {/* -------chat area--------- */}
-      <div className="flex flex-col h-[calc(100%-120px)] overflow-y-scroll p-3 p-6">
+      <div className="flex flex-col h-[calc(100%-120px)] overflow-y-scroll p-3 pb-6">
         {messagesDummyData.map((msg, index) => (
           <div
             key={index}
@@ -42,7 +42,7 @@ useEffect(()=>{
               <img
                 src={msg.image}
                 alt=""
-                className="max-w[230px] border
+                className="max-w-[230px] border
       border-gray-700 rounded-lg overflow-hidden mb-8"
               />
             ) : (
