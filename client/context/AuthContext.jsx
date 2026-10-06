@@ -103,7 +103,7 @@ export const AuthProvider = ({ children }) => {
     socket,
     login,
     logout,
-    updateProfile
+    updateProfile,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
