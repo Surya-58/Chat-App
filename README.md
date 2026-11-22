@@ -2,7 +2,7 @@
 
 A full-stack, real-time chat application built with the **MERN stack** and **Socket.IO**. Users can sign up, chat one-to-one, share images, update their profile, and see who is online, with unread-message badges in the sidebar.
 
-🔗 **Live demo:** [https://chat-app-nu-one-53.vercel.app]
+🔗 **Live demo:** [https://surya-dev-chat-app.vercel.app/]
 
 ---
 
